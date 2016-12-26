@@ -1,2 +1,2 @@
-Git not a version control system.
+Git diff a version control system.
 Git is free software.
