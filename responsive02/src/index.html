@@ -59,9 +59,33 @@
             </div>
         </div>
         <ul class="bxslider">
-            <li><a href=""><img src="img/ad001-l.png" /></a></li>
-            <li><a href=""><img src="img/ad002-l.png" /></a></li>
-            <li><a href=""><img src="img/ad003-l.png" /></a></li>
+            <li>
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad001-l.png" media="(min-width:50em)">
+                        <source srcset="img/ad001-m.png" media="(min-width:30em)">
+                        <img src="img/ad001.png">
+                    </picture>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad002-l.png" media="(min-width:50em)">
+                        <source srcset="img/ad002-m.png" media="(min-width:30em)">
+                        <img src="img/ad002.png">
+                    </picture>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <picture>
+                        <source srcset="img/ad003-l.png" media="(min-width:50em)">
+                        <source srcset="img/ad003-m.png" media="(min-width:30em)">
+                        <img src="img/ad003.png">
+                    </picture>
+                </a>
+            </li>
         </ul>
         <section class="feature">
             <div class="item">
@@ -263,5 +287,7 @@
 <script src="https://cdn.bootcss.com/bxslider/4.2.5/jquery.bxslider.min.js"></script>
 <!-- bxSlider CSS file -->
 <script src="js/main.js"></script>
+<!--picturefill javascript-->
+<script src="js/vendor/picturefill.js"></script>
 </body>
 </html>
