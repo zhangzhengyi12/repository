@@ -1,13 +1,5 @@
-# 网站使用指南
+纯静态响应式网站
 
-## 网站使用指南2
-1. 我的列表1
-1. 我的列表2
-1. 我的列表3
-1. 我的列表4
+媒体查询+jQuery
 
-
-
-[超链接]（www.baidu.com）
-
-
+![img](https://yinodimage.oss-cn-hangzhou.aliyuncs.com/18-3-6/558159.jpg)
